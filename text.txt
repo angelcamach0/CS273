@@ -1,0 +1,26 @@
+	.data 
+
+	.comm val
+	.global val
+	.comm width
+	.global width
+	.comm ascii
+	.global ascii
+
+	.text
+	.global read2DigitValue
+	.global flashGoAggies
+	.global decodeMorse
+
+read2DigitVlaue:
+	//brings in two digit values
+	ret
+
+flashGoAggiens:
+	//Not sure for what yet.
+	ret
+
+decodeMorse:
+	//where im going to decode the string
+	ret
+
